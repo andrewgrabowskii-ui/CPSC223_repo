@@ -1,0 +1,26 @@
+class Dog:
+    def __init__(self):
+        self.name = ""
+        self.age = 0
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old"
+
+    def bark(self):
+        print(f"{self.name} says woof")
+
+    def junk_test():
+        print(f"This is a test")
+
+fido = Dog("Fido", 37)
+fluffy = Dog("Fluffy", 13)
+
+print(fido)
+print(fluffy)
+fido.bark()
+fluffy.bark()
+Dog.junk_test()

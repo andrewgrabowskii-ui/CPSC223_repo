@@ -1,3 +1,3 @@
 from mylib import *
 
-print(mymult(3,5))
+print(mymult(3, 5))
